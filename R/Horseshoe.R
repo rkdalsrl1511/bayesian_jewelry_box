@@ -15,7 +15,7 @@
 #' @importFrom MASS mvrnorm
 #' @importFrom invgamma rinvgamma
 #' @export
-bjb_horseshoe <- function(){
+bjb_horseshoe <- function(y, X, tau = 1, Sigma = 1, iteration = 5000){
 
   #
 
